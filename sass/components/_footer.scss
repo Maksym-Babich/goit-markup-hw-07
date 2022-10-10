@@ -48,7 +48,6 @@
 }
 .page-footer__contacts-item {
   display: inline-block;
-  margin-bottom: 9px;
 
   font-weight: 400;
   font-size: 14px;
@@ -62,6 +61,11 @@
     color: $active-color;
   }
 }
+
+.page-footer__contacts-item--upper {
+  margin-bottom: 9px;
+}
+
 .social-net-section {
   margin-right: 93px;
 }

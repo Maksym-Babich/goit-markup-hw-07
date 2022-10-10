@@ -38,4 +38,5 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color $anim-func $anim-time;
+  transition: color $anim-func $anim-time;
 }
