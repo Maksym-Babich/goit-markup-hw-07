@@ -1,7 +1,7 @@
 .page-header {
 }
 
-.page-header_-content {
+.page-header__content {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
@@ -16,18 +16,7 @@
   margin-right: 91px;
   padding-top: 24px;
   padding-bottom: 25px;
-
   color: $nav-logo-color;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.page-header__logo--blue {
-  color: $active-color;
 }
 
 .nav-bar__list {
@@ -48,6 +37,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: $title-text-color;
+  transition: color $anim-func $anim-time;
 
   &:hover,
   &:focus,
@@ -94,6 +84,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: $text-color;
+  transition: color $anim-func $anim-time;
 
   &:hover,
   &:focus {

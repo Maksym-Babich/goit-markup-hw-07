@@ -1,18 +1,41 @@
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .conteiner {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0px 15px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo--blue {
+  color: $active-color;
+}
+
+%button {
+  background-color: $active-color;
+  color: $white-text-color;
+  border: none;
+  font-family: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color $anim-func $anim-time;
 }
