@@ -25,6 +25,7 @@
 .logo--blue {
 }
 .page-footer__adress {
+  font-style: normal;
 }
 .page-footer__conteacts-list {
 }
@@ -97,7 +98,7 @@
   transition: background-color $anim-func $anim-time;
 
   &:hover,
-  &focus {
+  &:focus {
     color: $white-text-color;
     background-color: $active-color;
   }

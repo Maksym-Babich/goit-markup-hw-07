@@ -10,8 +10,7 @@
   opacity: 1;
   visibility: visible;
 
-  transition: opacity var(--anim-func) var(--anim-time),
-    visibility var(--anim-func) var(--anim-time);
+  transition: opacity $anim-func $anim-time, visibility $anim-func $anim-time;
 }
 
 .modal-window {
